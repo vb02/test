@@ -1,0 +1,19 @@
+<odoo>
+
+    <record id="view_advertisment_tree" model="ir.ui.view">
+            <field name="name">pos.advertisement.tree</field>
+            <field name="model">pos.advertisment.line</field>
+            <!-- <field name="priority">4</field> -->
+            <field name="arch" type="xml">
+                <tree string="Adevertisment">
+                    <field name="pos_advertisment_id" invisible="0"/>
+                    <field name="image"/>
+                    <field name="name"/>
+                    <field name="sequence"/>
+                    <field name="duration"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+</odoo>
